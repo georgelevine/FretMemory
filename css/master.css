@@ -1,0 +1,75 @@
+body {
+  font-family: 'Black Han Sans', sans-serif;
+  background: #333333;
+  color: white;
+  width: max-content;
+  margin: auto;
+  user-select: none;
+  padding-top: 10%;
+  background-image: url(../img/d28tee.png);
+  background-repeat: no-repeat;
+  background-size: 350%;
+  background-position: center;
+  background-blend-mode: overlay;
+
+}
+.container {
+  width: 100%;
+
+
+}
+.fretboard-grid {
+  position: relative;
+  width: max-content;
+  margin: auto;
+  user-select: none;
+
+}
+.string {
+  position: absolute;
+  display: none;
+}
+.game button {
+  border: none;
+  padding: 10px 15px;
+  background: white;
+  font-family: 'Black Han Sans', sans-serif;
+  color: #808080;
+}
+.note {
+  margin: 0;
+  font-size: 14pt;
+  text-align: center;
+}
+.restart {
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14pt;
+  text-align: center;
+}
+.scoreboard {
+  position: relative;
+  width: 586px;
+  font-size: 14pt;
+  margin: auto;
+}
+.answer {
+  position: absolute;
+  top: 0;
+  float: left;
+  display: none;
+}
+.time-remaining {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.score {
+  float: right;
+}
+.end-game {
+  width: max-content;
+  margin: auto;
+  margin-top: 0px;
+  display: none;
+}

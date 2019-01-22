@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="css/master.css">
+    <meta name="author" content="George Levine">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>MAC.2017 | No Frets-</title>
+
+</head>
+  <body>
+
+    <h1>Memorize the Fretboard</h1>
+    <h3>George Levine</h3>
+    <h4>Instructions: Select the correct note on the given string </h4>
+
+
+    <div class="container">
+    <div class="end-game">You finished with score: <span id="finalscore">0</span></div>
+    <div class="scoreboard">
+        <div class="answer"></div>
+        <div class="time-remaining"></div>
+        <div class="score">Score: <span id="score">0</span></div>
+    </div>
+    <div class="fretboard-grid">
+        <img src="img/grid.png">
+        <img src="img/string.png" class="string">
+    </div>
+    <div class="game">
+        <p class="note"><button onclick="startGame()">Start game!</button></p>
+        <p class="restart"><button onclick="startGame()">Restart</button></p>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
